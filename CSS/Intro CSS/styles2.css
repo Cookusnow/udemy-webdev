@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+div {
+    width: 300px;
+    height: 200px;
+    background-color: darkred;
+}
+
+h1 {
+    background-color: black;
+    color: darkred;
+    width: 150px;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin: 0;
+}
+
+#plot {
+    background-color: darkviolet;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 5%;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+#robot {
+    background-color: forestgreen;
+    border-width: 3px;
+    border-color: brown;
+    border-style: dashed;
+    box-sizing: border-box;
+    border-left-width: 8px;
+    padding-right: 50px;
+    margin: 200px;
+}
+
+#power {
+    background-color: goldenrod;
+    border: 5px double purple;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px 30px 40px;
+}

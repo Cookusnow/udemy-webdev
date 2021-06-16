@@ -1,0 +1,69 @@
+/* SPECIFICITY: ID > CLASS > ELEMENT */
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    text-decoration: #6b0808 underline wavy;
+    letter-spacing: 15px;
+    font-size: 80px;
+    font-family: monospace;
+} */
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+} 
+
+/* pseudo-class */
+a:hover {
+    background-color: darkred;
+    color: white;
+}
+
+a:active {
+    background-color: #00CC00;
+}
+
+/* pseudo-elements */
+h2::first-letter {
+    font-size: 50px;
+}
+
+/* * {
+    universal selector
+} */
+
+/* h1, h2 {
+    use comma to select multiple elements
+} */
+
+/* #id {
+    id selector
+    singles out one element
+} */
+
+/* .class {
+    class selector
+    selects a class of elements
+} */
+
+/* li a {
+    selects descendants of elements
+    this one selects every <a> element inside an <li>
+} */
+
+/* h1 + p {
+    selects only the <p> that is immediately preceded by the <h1>
+} */
+
+/* div > li {
+    select only the <li> elements that are direct children of a <div> element
+} */
+
+/* input [type="text"] {
+    selects attribute <text> in element <input>
+} */
+
